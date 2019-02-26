@@ -5,9 +5,9 @@ d = input("sozu daxil edin")
 e = input("sozu daxil edin")
 list = [a,b,c,d,e]
 
-for word in list[:]:
-  if len(word) <=2:
-    list.remove(word) 
+for soz in list[:]:
+  if len(soz) <=2:
+    list.remove(soz) 
     print (list)
 
 print (list)
